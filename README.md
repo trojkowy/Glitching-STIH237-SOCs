@@ -17,9 +17,14 @@ Correct answers 0xbeefface != 0xbeefface
 
 Other security layers used by this SOC vendor:
 
--random clocks
--clock can run statically before sentinel initialization and during sentinel initialization and verification of sensitive data it is switched to secure mode (random clock)
--encrypted secure boot with triple time signature verification
--the signature verification procedure also starts a random clock during its execution.
--the external clock input is verified and blocked from possible manipulation.
--ram scrambling.
+1.random clocks
+
+2.clock can run statically before sentinel initialization and during sentinel initialization and verification of sensitive data it is switched to secure mode (random clock)
+
+3.encrypted secure boot with triple time signature verification
+
+4.the signature verification procedure also starts a random clock during its execution.
+
+5.the external clock input is verified and blocked from possible manipulation.
+
+6.ram scrambling.
