@@ -13,7 +13,7 @@ GLITCH STATUS: width = 353, delay = 38692500
 Data received:
 SDI [ERROR] :: [SERVER] serviceASEMode: Sentinel not found (0x89fc70ff != 0xbeefface)
 
-Correct answers 0xbeefface != 0xbeefface
+Correct answers 0xbeefface != 0xbeefface = never working :)
 
 Other security layers used by this SOC vendor:
 
